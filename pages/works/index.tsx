@@ -6,7 +6,7 @@ const works = () => {
   return (
     <div>
       <Head>
-        <title>KandaPort|works</title>
+        <title>KandaPort | works</title>
       </Head>
       <Header />
       <div className="px-2  mb-10 max-w-7xl mx-auto sm:px-6 lg:px-20">
@@ -47,7 +47,7 @@ const works = () => {
                               width="200"
                               height="200"
                             ></Image>
-                            <p className="text-center font-bold none hidden sm:inline">
+                            <p className="text-center font-bold none hidden sm:block">
                               {skill}
                             </p>
                           </div>
@@ -71,7 +71,7 @@ const works = () => {
                               width="200"
                               height="200"
                             ></Image>
-                            <p className="text-center font-bold none hidden sm:inline">
+                            <p className="text-center font-bold none hidden sm:block">
                               {skill}
                             </p>
                           </div>

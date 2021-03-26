@@ -19,7 +19,7 @@ const Skill = () => {
                       width="300"
                       height="300"
                     ></Image>
-                    <p className="text-center text-base font-bold hidden md:block">
+                    <p className="text-center text-base font-bold hidden sm:block">
                       {element}
                     </p>
                   </div>
