@@ -71,7 +71,9 @@ const works = () => {
                               width="200"
                               height="200"
                             ></Image>
-                            <p className="text-center font-bold">{skill}</p>
+                            <p className="text-center font-bold none hidden sm:inline">
+                              {skill}
+                            </p>
                           </div>
                         );
                       })}
