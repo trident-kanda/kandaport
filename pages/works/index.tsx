@@ -77,6 +77,13 @@ const works = () => {
                           </div>
                         );
                       })}
+                      {backskill.length === 0 && (
+                        <div>
+                          <p className=" text-2xl text-gray-400">
+                            使用していません
+                          </p>
+                        </div>
+                      )}
                     </div>
                   </div>
                   <div>
