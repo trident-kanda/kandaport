@@ -2,6 +2,7 @@ import Header from "../../components/Header";
 import Image from "next/image";
 import workList from "../../lib/works";
 import Head from "next/head";
+import ArrowLink from "../../components/ArrowLink";
 const works = () => {
   return (
     <div>
@@ -11,10 +12,18 @@ const works = () => {
       <Header />
       <div className="px-2  mb-10 max-w-7xl mx-auto sm:px-6 lg:px-20">
         <div className="bg-white rounded-lg shadow-md p-10 mb-10">
-          <h2 className="Chango text-center mb-10">Works</h2>
-          <div className="bg-gray-100"></div>
+          <div className=" flex  mb-10">
+            <div className=" flex-1"></div>
+            <div className=" flex-1">
+              <h2 className="Chango text-center">Works</h2>
+            </div>
+            <div className=" flex-1"></div>
+          </div>
           {workList.map(
-            ({ title, frontskill, backskill, url, Description }, number) => {
+            (
+              { title, frontskill, backskill, url, Description, giturl },
+              number
+            ) => {
               return (
                 <div
                   key={number}
@@ -92,18 +101,17 @@ const works = () => {
                     </h3>
                     <p>{Description}</p>
                     <br />
-                    <div className="text-center">
-                      <a href={url} rel="nofollow">
-                        <div className=" inline link">
-                          <p className="font-extrabold inline text-lg  cursor-pointer  ">
-                            Webサイトへ
-                          </p>
-                          <div className="inline-block">
-                            <div className="inline arrow_right"></div>
-                          </div>
-                        </div>
-                      </a>
-                    </div>
+                    <ArrowLink
+                      link={url}
+                      word={"Webサイトへ"}
+                      internal={false}
+                    />
+                    <br />
+                    <ArrowLink
+                      link={giturl}
+                      word={"GitHubへ"}
+                      internal={false}
+                    />
                   </div>
                 </div>
               );

@@ -22,6 +22,16 @@
   transform: rotate(45deg);
 }
 
+.arrow_left {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 0 10px;
+  border-top: 3px solid #4b5563;
+  border-right: 3px solid #4b5563;
+  transform: rotate(226deg);
+}
+
 .link:hover > p {
   color: #4b5563;
 }

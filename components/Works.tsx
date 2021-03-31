@@ -1,5 +1,5 @@
 import Slick from "./Slick";
-import Link from "next/link";
+import ArrowLink from "./ArrowLink";
 const Works = () => {
   return (
     <div className="bg-white rounded-lg shadow-md p-10 mb-10">
@@ -9,20 +9,7 @@ const Works = () => {
           <div className="w-100% lg:w-4/5 mx-auto mb-16">
             <Slick />
           </div>
-          <div className=" text-center">
-            <Link href="/works">
-              <a>
-                <div className=" inline link">
-                  <p className="font-extrabold inline text-lg  cursor-pointer  ">
-                    詳細
-                  </p>
-                  <div className="inline-block">
-                    <div className="inline arrow_right"></div>
-                  </div>
-                </div>
-              </a>
-            </Link>
-          </div>
+          <ArrowLink link={"/works"} word={"詳細"} internal={true} />
         </div>
       </div>
     </div>
