@@ -29,7 +29,7 @@ const workList = [
         backskill:[],
         url:"https://kandaport.vercel.app/",
         giturl:"https://github.com/trident-kanda/kandaport",
-        Description:"Nextjsを使ったポートフォリオサイトです。スライダーはReact-slickを使用して実装しています。"
+        Description:"Nextjsを使ったポートフォリオサイトです。スライダーはReact-slickを使用して実装しています。基本的にTailwindCSSを使用してスタイルを作っています。セレクタなどを利用する場合はSassを使用しています。"
     },  
 ];
 
