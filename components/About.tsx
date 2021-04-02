@@ -1,9 +1,18 @@
+import Image from "next/image";
 const About = () => {
   return (
     <div className="bg-white rounded-lg shadow-md p-10 mb-10">
       <div className="mb-6">
         <h2 className="Chango text-center mb-10">About</h2>
-        <div className="sm:p-10 sm:bg-gray-100 sm:rounded-lg sm:shadow-md flex justify-center">
+        <div className="sm:p-10 sm:bg-gray-100 sm:rounded-lg sm:shadow-md flex items-center flex-col">
+          <div className="mb-5">
+            <Image
+              src="/profile.jpg"
+              height="200px"
+              width="200px"
+              className="rounded-full"
+            />
+          </div>
           <div className="text-base lg:text-xl">
             <p className="mb-2">
               <span className="font-bold mr-2">名前:</span>神田 佑樹

@@ -5,9 +5,8 @@ type props = {
   internal: boolean;
 };
 const ArrowLink = ({ link, word, internal }: props) => {
-  const firstLetter = link.slice(0, 1);
   return (
-    <div className=" text-center">
+    <div className=" text-center mt-5">
       {internal === true && (
         <Link href={link}>
           <a>

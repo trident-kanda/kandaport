@@ -97,14 +97,12 @@ const works = () => {
                     <h3 className="my-5 text-center text-3xl font-bold">
                       概要
                     </h3>
-                    <p>{Description}</p>
-                    <br />
+                    <p className="whitespace-pre-wrap">{Description}</p>
                     <ArrowLink
                       link={url}
                       word={"Webサイトへ"}
                       internal={false}
                     />
-                    <br />
                     <ArrowLink
                       link={giturl}
                       word={"GitHubへ"}
