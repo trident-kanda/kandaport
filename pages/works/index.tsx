@@ -1,4 +1,3 @@
-import Header from "../../components/Header";
 import Image from "next/image";
 import workList from "../../lib/works";
 import Head from "next/head";
@@ -9,7 +8,6 @@ const works = () => {
       <Head>
         <title>KandaPort | works</title>
       </Head>
-      <Header />
       <div className="px-2  mb-10 max-w-7xl mx-auto sm:px-6 lg:px-20">
         <div className="bg-white rounded-lg shadow-md p-10 mb-10">
           <div className=" flex  mb-10">
