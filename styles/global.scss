@@ -4,12 +4,19 @@
   font-size: 25px;
   font-family: "Chango", cursive;
 }
-
+.slick-prev {
+  left: -30px;
+}
+.slick-next {
+  right: -30px;
+}
 .slick-prev:before {
   color: black;
+  font-size: 25px;
 }
 .slick-next:before {
   color: black;
+  font-size: 25px;
 }
 
 .arrow_right {

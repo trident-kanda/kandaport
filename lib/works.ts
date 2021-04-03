@@ -13,7 +13,7 @@ const workList = [
         backskill:["Nodejs","CloudFirestore"],
         url:"https://mixblog.vercel.app/",
         giturl:"https://github.com/trident-kanda/mixblog",
-        Description:"Nextjsの勉強用に作成しました。getStaticPropsとgetStaticPathsを利用したマークダウンブログサイトです。マークダウンファイルを配置すると自動でURLが生成されるようになってます。自動ページ割り当てなど細かい部分の調整に苦労しました。静的サイトジェネレーターや動的なルーティングの理解につながりました"
+        Description:"Nextjsの勉強用に作成しました。getStaticPropsとgetStaticPathsを利用したマークダウンブログサイトです。マークダウンファイルを配置すると自動でURLが生成されるようになってます。自動ページ割り当てなど細かい部分の調整に苦労しました。静的サイトジェネレーターや動的なルーティングの理解につながりました。"
     },
     {
         title:"cocjob",
