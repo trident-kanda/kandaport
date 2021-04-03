@@ -25,7 +25,7 @@ const works = () => {
               return (
                 <div
                   key={number}
-                  className="sm:p-10 sm:bg-gray-100 sm:rounded-lg sm:shadow-md pic:px-32 mb-28"
+                  className="sm:p-10 sm:bg-gray-100 sm:rounded-lg sm:shadow-md pic:px-32 mb-10"
                 >
                   <div className="mb-5">
                     <h3 className="text-center text-3xl font-bold">{title}</h3>
