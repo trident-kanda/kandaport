@@ -5,7 +5,7 @@ const workList = [
         backskill:["PHP","MYSQL","FirebaseAuth"],
         url:"http://tridentsav.oops.jp/",
         giturl:"https://github.com/trident-kanda/TwitterClone",
-        Description:"ReactとTypeScriptの勉強用に作成しました。react-router-domを使ったルーティングに苦労しました。ReactHooksやReact-routerTypeScriptの型宣言、ライブラリ/フレームワークの使い方などの理解につながりました。\n下記のメールアドレスとパスワードでログインして試してみてください。\nmail: kakunin@gmail.com\npass: pass1234"
+        Description:"ReactとTypeScriptの勉強用に作成しました。フォローやツイートなどツイッターの基本的な機能を持つツイッタークローンです。react-router-domを使ったルーティングに苦労しました。ReactHooksやReact-routerTypeScriptの型宣言、ライブラリ/フレームワークの使い方などの理解につながりました。\n下記のメールアドレスとパスワードでログインして試してみてください。\nMail: kakunin@gmail.com\nPass: pass1234"
     },
     {
         title:"MIXBLOG",
@@ -21,7 +21,7 @@ const workList = [
         backskill:["Nodejs","Express","ApolloServer","FirebaseHosting","Graphql"],
         url:"https://cocjob.vercel.app/",
         giturl:"https://github.com/trident-kanda/cocjob",
-        Description:"GraphqlとTailwindCSSの勉強用に作成しました。APIサーバはFirebase Hostingに置いてApolloを利用した簡単なAPIを作成しました。サーバ側にはあまり慣れてなく引数を利用したqueryの作成に苦労しました。バックエンドとCSSのフレームワークを使ったデザイン作成の理解につながりました。"
+        Description:"GraphqlとTailwindCSSの勉強用に作成しました。TRPGのキャラクターシートの作成が少しだけ便利になります。APIサーバはFirebase Hostingに置いてApolloを利用した簡単なAPIを作成しました。サーバ側にはあまり慣れてなく引数を利用したqueryの作成に苦労しました。バックエンドとCSSのフレームワークを使ったデザイン作成の理解につながりました。"
     },  
     {
         title:"Portfolio",
