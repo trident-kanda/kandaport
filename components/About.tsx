@@ -29,12 +29,17 @@ const About = () => {
               <span className="font-bold mr-2">年齢:</span>
               20歳
             </p>
-            <p className="">
+            <p className="mb-2">
               <span className="font-bold mr-2">Email:</span>
               <a href=" mailto:tridentkandayuki@gmail.com">
                 tridentkandayuki@gmail.com
               </a>
             </p>
+          </div>
+          <div>
+            <a href="https://github.com/trident-kanda" target="_blank" rel="nofollow">
+              <Image height="30px" width="30px" src="/icon/git.svg"/>
+            </a>
           </div>
         </div>
       </div>
