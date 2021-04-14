@@ -10,6 +10,7 @@ const skills = [
     "Graphql",
     "Apollo",
     "PHP",
+    "java",
     "Nodejs",
     "MYSQL",
 ];
