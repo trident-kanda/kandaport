@@ -1,5 +1,21 @@
-@import url("https://fonts.googleapis.com/css2?family=Chango&display=swap");
-
+// @import url("https://fonts.googleapis.com/css2?family=Chango&display=swap");
+@font-face {
+  font-family: "Chango";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/chango/chango-v11-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/chango/chango-v11-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/chango/chango-v11-latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/chango/chango-v11-latin-regular.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/chango/chango-v11-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/chango/chango-v11-latin-regular.svg#Chango") format("svg"); /* Legacy iOS */
+}
 .Chango {
   font-size: 25px;
   font-family: "Chango", cursive;
