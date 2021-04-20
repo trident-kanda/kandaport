@@ -1,4 +1,5 @@
 import Image from "next/image";
+import GitIcon from "./Icons/GitIcon";
 const About = () => {
   return (
     <div className="bg-white rounded-lg shadow-md p-10 mb-10">
@@ -42,7 +43,7 @@ const About = () => {
               target="_blank"
               rel="nofollow"
             >
-              <Image height="32px" width="32px" src="/icon/git.svg" />
+              <GitIcon size={32} />
             </a>
           </div>
         </div>
