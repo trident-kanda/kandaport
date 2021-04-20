@@ -37,8 +37,12 @@ const About = () => {
             </p>
           </div>
           <div>
-            <a href="https://github.com/trident-kanda" target="_blank" rel="nofollow">
-              <Image height="30px" width="30px" src="/icon/git.svg"/>
+            <a
+              href="https://github.com/trident-kanda"
+              target="_blank"
+              rel="nofollow"
+            >
+              <Image height="32px" width="32px" src="/icon/git.svg" />
             </a>
           </div>
         </div>
