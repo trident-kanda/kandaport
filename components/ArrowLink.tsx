@@ -9,7 +9,7 @@ const ArrowLink = ({ link, word, internal }: props) => {
     return (
       <div className=" text-center mt-5">
         <p className="font-extrabold inline text-lg cursor-not-allowed text-gray-500">
-          準備中👷
+          URL準備中👷
         </p>
       </div>
     );
